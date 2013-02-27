@@ -1,0 +1,27 @@
+{
+    "name": "dominikzogg/contao-mysqli-socket",
+    "type": "contao-module",
+    "description": "add socket support to the mysqli driver in contao lts",
+    "keywords": ["contao", "mysqli"],
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Dominik Zogg",
+            "email": "dominik.zogg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.4",
+        "contao": "2.11.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "extra": {
+        "contao": {
+            "symlinks": {
+                "src/system/drivers/DB_Mysqliwithsocketsupport.php": "system/drivers/DB_Mysqliwithsocketsupport.php"
+            }
+        }
+    }
+}
