@@ -1,5 +1,6 @@
 <?php if (!defined('TL_ROOT')) die('You cannot access this file directly!');
 
+require(TL_ROOT . '/system/drivers/DB_Mysqli.php');
 
 class DB_Mysqliwithsocketsupport extends DB_Mysqli
 {

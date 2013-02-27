@@ -9,6 +9,6 @@ copy the content of the src folder to your Installation (PLEASE NOT WITH APPLE
 
 Modify your system/config/localconfig.php
 ```php
-$GLOBALS['TL_CONFIG']['dbDriver'] = 'Mysqliwithsocketsupport';
+$GLOBALS['TL_CONFIG']['dbDriver'] = 'mysqliwithsocketsupport';
 $GLOBALS['TL_CONFIG']['dbSocket'] = 'path/to/the/mysql.sock';
 ```
