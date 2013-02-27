@@ -1,7 +1,7 @@
 <?php if (!defined('TL_ROOT')) die('You cannot access this file directly!');
 
 
-class DB_MysqliWithSocketSupport extends DB_Mysqli
+class DB_Mysqliwithsocketsupport extends DB_Mysqli
 {
     /**
      * Connect to the database server and select the database
